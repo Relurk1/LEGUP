@@ -158,7 +158,9 @@ public class PreventBlackSquareDirectRuleTest {
         transition.setRule(RULE);
 
         NurikabeBoard board = (NurikabeBoard) transition.getBoard();
-
+        NurikabeCell cell = board.getCell(0,1);
+        cell.setData(NurikabeType.WHITE.toValue());
+        board.addModifiedData(cell);
 
         for (int i = 0; i < board.getHeight(); i++) {
             for (int k = 0; k < board.getWidth(); k++) {
