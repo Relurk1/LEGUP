@@ -35,8 +35,10 @@ public class ConditionalIntroductionDirectRuleTest {
         ShortTruthTableCell cell = board.getCell(1,0);
 
         for(ShortTruthTableCellType cellType:cellTypes){
-            if(cellType==ShortTruthTableCellType.TRUE)
+            if(cellType==ShortTruthTableCellType.TRUE){
                 continue;
+            }
+
             if(cellType!=ShortTruthTableCellType.UNKNOWN){
                 cell.setData(cellType);
                 board.addModifiedData(cell);
@@ -57,8 +59,9 @@ public class ConditionalIntroductionDirectRuleTest {
         ShortTruthTableCell cell = board.getCell(1,0);
 
         for(ShortTruthTableCellType cellType:cellTypes){
-            if(cellType==ShortTruthTableCellType.FALSE)
+            if(cellType==ShortTruthTableCellType.FALSE){
                 continue;
+            }
             if(cellType!=ShortTruthTableCellType.UNKNOWN){
                 cell.setData(cellType);
                 board.addModifiedData(cell);
@@ -79,8 +82,9 @@ public class ConditionalIntroductionDirectRuleTest {
         ShortTruthTableCell cell = board.getCell(1,0);
 
         for(ShortTruthTableCellType cellType:cellTypes){
-            if(cellType==ShortTruthTableCellType.TRUE)
+            if(cellType==ShortTruthTableCellType.TRUE){
                 continue;
+            }
             if(cellType!=ShortTruthTableCellType.UNKNOWN){
                 cell.setData(cellType);
                 board.addModifiedData(cell);
@@ -101,8 +105,9 @@ public class ConditionalIntroductionDirectRuleTest {
         ShortTruthTableCell cell = board.getCell(1,0);
 
         for(ShortTruthTableCellType cellType:cellTypes){
-            if(cellType==ShortTruthTableCellType.TRUE)
+            if(cellType==ShortTruthTableCellType.TRUE) {
                 continue;
+            }
             if(cellType!=ShortTruthTableCellType.UNKNOWN){
                 cell.setData(cellType);
                 board.addModifiedData(cell);
