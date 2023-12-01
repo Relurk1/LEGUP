@@ -4,7 +4,7 @@
     <puzzle name="ShortTruthTable">
         <board>
             <data>
-                <statement representation="B^C" row_index="0"/>a
+                <statement representation="B|C" row_index="0"/>a
                 <cell char_index="0" row_index="0" type="FALSE"/>
                 <cell char_index="2" row_index="0" type="FALSE"/>
             </data>

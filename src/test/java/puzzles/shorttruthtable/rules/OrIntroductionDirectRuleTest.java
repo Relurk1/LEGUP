@@ -97,7 +97,7 @@ public class OrIntroductionDirectRuleTest {
                 board.addModifiedData(cell);
             }
 
-            Assert.assertNotNull(RULE.checkRule(transition));
+            Assert.assertNull(RULE.checkRule(transition));
 
         }
     }
@@ -123,7 +123,7 @@ public class OrIntroductionDirectRuleTest {
                 board.addModifiedData(cell);
             }
 
-            Assert.assertNotNull(RULE.checkRule(transition));
+            Assert.assertNull(RULE.checkRule(transition));
 
         }
     }
